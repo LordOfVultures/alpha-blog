@@ -2,3 +2,5 @@
 
 <h4>Title: <%= @article.title %></h4>
 <p>Description: <%= @article.description %></p>
+<%= link_to 'Edit', edit_article_path(@article) %>
+<%= link_to 'Return', articles_path %>
